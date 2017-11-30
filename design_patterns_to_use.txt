@@ -1,0 +1,8 @@
+Design Pattern we can use
+Command Pattern
+Strategy Pattern
+Decorator Pattern
+Factory Pattern
+Builder Pattern
+Template Method Pattern
+State Pattern
