@@ -1,8 +1,16 @@
 Design Pattern we can use
-Command Pattern
-Strategy Pattern
-Decorator Pattern
-Factory Pattern
-Builder Pattern
-Template Method Pattern
-State Pattern
+  Command Pattern
+  Strategy Pattern
+  Decorator Pattern
+  Factory Pattern
+  Builder Pattern
+  Template Method Pattern
+  State Pattern
+  Bridge Pattern
+  Flyweight Pattern
+  Prototype Pattern
+  Interpreter Pattern
+  Proxy Pattern
+  Visitor Pattern
+  Memento Pattern
+  Mediator Pattern
