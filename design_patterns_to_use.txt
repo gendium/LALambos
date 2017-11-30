@@ -1,11 +1,16 @@
 Design Pattern we can use
-  Command Pattern
+  Command Pattern 
   Strategy Pattern
-  Decorator Pattern
-  Factory Pattern
-  Builder Pattern
-  Template Method Pattern
-  State Pattern
+  Decorator Pattern:
+    
+  Factory Pattern:
+    Used for which cars available for a certain location
+  *Builder Pattern:
+    Used for adding new car to car list
+  *Template Method Pattern:
+    Car operation
+  State Pattern:
+    
   Bridge Pattern
   Flyweight Pattern
   Prototype Pattern
@@ -13,4 +18,5 @@ Design Pattern we can use
   Proxy Pattern
   Visitor Pattern
   Memento Pattern
-  Mediator Pattern
+  *Mediator Pattern:
+    Used for communication between client and database
