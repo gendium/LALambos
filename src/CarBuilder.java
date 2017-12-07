@@ -19,11 +19,6 @@
  */
 public class CarBuilder{
 
-    public CarBuilder()
-    {
-
-    }
-
     public Car buildModelA()
     {
         Car car = new Car();
