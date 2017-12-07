@@ -1,8 +1,8 @@
 Design Pattern we can use
   Command Pattern 
   Strategy Pattern
-  Decorator Pattern:
-    
+  *Decorator Pattern:
+    Add-ons  
   Factory Pattern:
     Used for which cars available for a certain location
   *Builder Pattern:
