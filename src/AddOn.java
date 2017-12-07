@@ -17,12 +17,17 @@
  - service (which may then retain a copy of this assignment on its database for
  - the purpose of future plagiarism checking)
  */
-public class AddOn {
-    int addOnPrice;
+public abstract class AddOn {
+    float addOnPrice;
     Car car;
 
-    public float getPrice()
+    public AddOn(Car decoratedCar)
     {
-        return 0.0f;
+    	this.car = decoratedCar;
+    }
+    
+    public void getPrice()
+    {
+        car.getPrice();
     }
 }

@@ -19,4 +19,15 @@
 */
 public class HwoodCar extends Car{
 
+	public HwoodCar() {
+		this.priceMult = 5;
+		this.hubCaps = false;
+	}
+	
+	
+	@Override
+	public void getPrice() {
+		System.out.println("Car rental for Hollywood");
+	}
+
 }

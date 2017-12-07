@@ -18,4 +18,17 @@
  - the purpose of future plagiarism checking)
  */
 public class ComptonCar extends Car {
+
+	public ComptonCar() {
+		this.hubCaps = false;
+		this.priceMult = 1;
+	}
+	@Override
+	public void getPrice() {
+		System.out.println("Car rental for Compton");
+		if(this.hubCaps)
+			System.out.println("With hubcaps");
+		else
+			System.out.println("Without hubcaps");
+	}
 }

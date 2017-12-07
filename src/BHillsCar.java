@@ -18,4 +18,14 @@
  - the purpose of future plagiarism checking)
  */
 public class BHillsCar extends Car {
+
+	public BHillsCar() {
+		this.hubCaps = false;
+		this.priceMult = 3;
+	}
+	
+	@Override
+	public void getPrice() {
+		System.out.println("Car for Beverly Hills");
+	}
 }

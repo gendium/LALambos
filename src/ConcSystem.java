@@ -1,4 +1,4 @@
 
-public class ConcSystem extends System {
+public class ConcSystem extends LASystem {
 
 }

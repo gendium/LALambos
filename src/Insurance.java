@@ -18,4 +18,20 @@
  - the purpose of future plagiarism checking)
  */
 public class Insurance extends AddOn {
+
+	private float insurancePrice = 399.99f;
+	public Insurance(Car decoratedCar) {
+		super(decoratedCar);
+	}
+	
+	public void getPrice()
+	{
+		car.getPrice();
+		setInsurance(this.car);
+	}
+	
+	public void setInsurance(Car car)
+	{
+		System.out.println("Price of Insurance is: " + this.insurancePrice);
+	}
 }
