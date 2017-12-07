@@ -21,9 +21,10 @@ public abstract class AddOn {
     float addOnPrice;
     Car car;
 
-    public AddOn(Car decoratedCar)
+    public AddOn(Car decoratedCar, float price)
     {
     	this.car = decoratedCar;
+    	this.addOnPrice = price;
     }
     
     public void getPrice()

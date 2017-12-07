@@ -1,5 +1,9 @@
 
-public abstract class Car implements CarDecorator {
+public class Car implements CarDecorator {
 	   boolean hubCaps;
 	   float priceMult;
+	@Override
+	public void getPrice() {
+		
+	}
 }

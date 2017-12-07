@@ -19,30 +19,26 @@
  */
 public class CarBuilder{
 
-    public CarBuilder()
-    {
-
-    }
-
     public Car buildModelA()
     {
         Car car = new Car();
-
+        Insurance insurance = new Insurance(car);
         return car;
     }
 
     public Car buildModelB()
     {
-        Car car = new Car();
-
-        return car;
+    	 Car car = new Car();
+         CarSeat carSeat = new CarSeat(car);
+         return car;
     }
 
     public Car buildModelC()
     {
-        Car car = new Car();
-
-        return car;
+    	 Car car = new Car();
+         Insurance insurance = new Insurance(car);
+         CarSeat carSeat = new CarSeat(car);
+         return car;
     }
 
 }
