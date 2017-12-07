@@ -35,13 +35,16 @@ public class RentalStore {
         {
             carBuilder.buildModelA();
         }
-        if (model.equals("Model B"))
+        else if (model.equals("Model B"))
         {
             carBuilder.buildModelB();
         }
-        if (model.equals("Model C"))
+        else if (model.equals("Model C"))
         {
             carBuilder.buildModelC();
+        }
+        else {
+            System.out.println("Car Model Not found");
         }
     }
 
