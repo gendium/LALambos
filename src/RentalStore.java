@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  Author: Sean Egger
  Class: CSI-340
@@ -5,7 +7,7 @@
  Due Date: 12/7/2017 2:00
 
  Description:
-
+    A rental store class. Implements the factory method pattern in addCar.
 
  Certification of Authenticity:
  I certify that this is entirely my own work, except where I have given
@@ -19,15 +21,37 @@
  */
 public class RentalStore {
 
-    private CarBuilder carBuilder;
+    protected CarBuilder carBuilder;
+    protected ArrayList<Car> carList;
 
-    public void addCar()
-    {
 
+    public RentalStore() {
+        this.carBuilder = new CarBuilder();
     }
 
-    public void chooseCar()
+    public void addCar(String model)
     {
+        if (model.equals("Model A"))
+        {
+            carBuilder.buildModelA();
+        }
+        if (model.equals("Model B"))
+        {
+            carBuilder.buildModelB();
+        }
+        if (model.equals("Model C"))
+        {
+            carBuilder.buildModelC();
+        }
+    }
 
+    public ArrayList<Car> getCarsList() {
+        return carList;
+    }
+
+    public Car chooseCar(Car car)
+    {
+        carList.remove(car);
+        return car;
     }
 }

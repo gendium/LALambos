@@ -18,4 +18,11 @@
  - the purpose of future plagiarism checking)
  */
 public class HwoodRentals extends RentalStore{
+
+    int zip;
+
+    public HwoodRentals() {
+        super();
+        this.zip = 90003;
+    }
 }
