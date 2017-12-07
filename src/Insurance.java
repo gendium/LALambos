@@ -1,11 +1,11 @@
 /**
- Author: Sean Egger
+ Author: Sean Egger, Alec Rulev, Jon Schulberger, Sam LoPiccolo
  Class: CSI-340
  Assignment: Software Specialties Final Assignment: LA Car rental app
  Due Date: 12/7/2017 2:00
 
  Description:
- A concrete Add On class
+ A concrete add on class
 
  Certification of Authenticity:
  I certify that this is entirely my own work, except where I have given
@@ -27,6 +27,7 @@ public class Insurance extends AddOn {
 	{
 		car.getPrice();
 		setInsurance(this.car);
+		car.addedPrice = this.addOnPrice;
 	}
 	
 	public void setInsurance(Car car)

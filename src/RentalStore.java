@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- Author: Sean Egger
+ Author: Sean Egger, Alec Rulev, Jon Schulberger, Sam LoPiccolo
  Class: CSI-340
  Assignment: Software Specialties Final Assignment: LA Car rental app
  Due Date: 12/7/2017 2:00

@@ -1,11 +1,11 @@
 /**
- Author: Sean Egger
+ Author: Sean Egger, Alec Rulev, Jon Schulberger, Sam LoPiccolo
  Class: CSI-340
  Assignment: Software Specialties Final Assignment: LA Car rental app
  Due Date: 12/7/2017 2:00
 
  Description:
-    A car super class
+ A car decorator interface
 
  Certification of Authenticity:
  I certify that this is entirely my own work, except where I have given
