@@ -19,9 +19,8 @@
  */
 public class Insurance extends AddOn {
 
-	private float insurancePrice = 399.99f;
 	public Insurance(Car decoratedCar) {
-		super(decoratedCar);
+		super(decoratedCar,399.99f);
 	}
 	
 	public void getPrice()
@@ -32,6 +31,6 @@ public class Insurance extends AddOn {
 	
 	public void setInsurance(Car car)
 	{
-		System.out.println("Price of Insurance is: " + (this.insurancePrice * car.priceMult));
+		System.out.println("Price of Insurance is: " + (this.addOnPrice * car.priceMult));
 	}
 }

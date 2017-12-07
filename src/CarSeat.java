@@ -18,11 +18,11 @@
  - the purpose of future plagiarism checking)
  */
 public class CarSeat extends AddOn{
-	private float carSeatPrice = 359.99f;
 	
 	public CarSeat(Car decoratedCar) {
-		super(decoratedCar);
-	}
+		super(decoratedCar, 359.99f);
+		
+		}
 	
 	public void getPrice()
 	{
@@ -33,7 +33,7 @@ public class CarSeat extends AddOn{
 	
 	public void setCarSeat(Car car)
 	{
-		System.out.println("Price of Car Seat is: " + (this.carSeatPrice*(car.priceMult/5)));
+		System.out.println("Price of Car Seat is: " + (this.addOnPrice*(car.priceMult/5)));
 	}
 	
 	
