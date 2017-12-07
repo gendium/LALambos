@@ -17,14 +17,32 @@
  - service (which may then retain a copy of this assignment on its database for
  - the purpose of future plagiarism checking)
  */
-public class CarBuilder extends RentalStore{
+public class CarBuilder{
 
     public CarBuilder()
     {
 
     }
 
-    public void build()
-    {}
+    public Car buildModelA()
+    {
+        Car car = new Car();
+
+        return car;
+    }
+
+    public Car buildModelB()
+    {
+        Car car = new Car();
+
+        return car;
+    }
+
+    public Car buildModelC()
+    {
+        Car car = new Car();
+
+        return car;
+    }
 
 }

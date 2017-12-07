@@ -17,5 +17,5 @@
  - service (which may then retain a copy of this assignment on its database for
  - the purpose of future plagiarism checking)
  */
-public class CmptnRentals extends CarBuilder {
+public class CmptnRentals extends RentalStore {
 }

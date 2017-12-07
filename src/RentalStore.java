@@ -19,6 +19,8 @@
  */
 public class RentalStore {
 
+    private CarBuilder carBuilder;
+
     public void addCar()
     {
 
