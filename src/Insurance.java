@@ -32,6 +32,6 @@ public class Insurance extends AddOn {
 	
 	public void setInsurance(Car car)
 	{
-		System.out.println("Price of Insurance is: " + this.insurancePrice);
+		System.out.println("Price of Insurance is: " + (this.insurancePrice * car.priceMult));
 	}
 }

@@ -33,7 +33,7 @@ public class CarSeat extends AddOn{
 	
 	public void setCarSeat(Car car)
 	{
-		System.out.println("Price of Car Seat is: " + this.carSeatPrice);
+		System.out.println("Price of Car Seat is: " + (this.carSeatPrice*(car.priceMult/5)));
 	}
 	
 	
