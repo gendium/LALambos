@@ -5,7 +5,7 @@
  Due Date: 12/7/2017 2:00
 
  Description:
-
+    A rental class with a location
 
  Certification of Authenticity:
  I certify that this is entirely my own work, except where I have given
