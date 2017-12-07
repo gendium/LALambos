@@ -21,7 +21,7 @@ public class Car implements CarDecorator {
 	   boolean hubCaps;
 	   float priceMult;
 	   float dailyPrice = 1500.00f;
-	   float addedPrice;
+	   float addedPrice = 0;
 	@Override
 	public void getPrice() {
 		System.out.println("Provided Car Price is: " + (dailyPrice*priceMult) + "added price: " + addedPrice);
