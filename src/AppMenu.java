@@ -31,7 +31,7 @@ public abstract class AppMenu implements Menu{
 		
 	public void addOption(String key, Runnable val)
 	{
-		menuOptions.put(key, val);
+		menuOptions.put(key, () -> val);
 	}
 	
 	public void removeOption(String key)
