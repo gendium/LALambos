@@ -23,7 +23,7 @@ public abstract class AppMenu implements Menu{
 			System.out.println(cmd);
 		}
 
-        	char key = new Scanner(System.in).nextLine().charAt(0);
+        	String key = new Scanner(System.in).nextLine();
 
         	if (commands.containsKey(key))
             		commands.get(key).run();
