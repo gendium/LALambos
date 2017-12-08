@@ -4,7 +4,7 @@ public abstract class ChatUser {
 	protected int channel;
 	protected boolean is_agent;
 	
-	public User(ChatMediator med, String name, int channel, boolean is_agent) {
+	public ChatUser(ChatMediator med, String name, int channel, boolean is_agent) {
 		this.mediator = med;
 		this.name = name;
 		this.channel = channel;
