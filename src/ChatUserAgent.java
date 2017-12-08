@@ -1,6 +1,6 @@
 public class ChatUserAgent extends ChatUser {
-	public ChatUserAgent(ChatMediator med, String name, int channel) {
-		super(med, name, channel, true);
+	public ChatUserAgent(ChatMediator med, ChatMenu UI, String name, int channel) {
+		super(med, UI, name, channel, true);
 	}
 	
 	@Override
@@ -10,6 +10,6 @@ public class ChatUserAgent extends ChatUser {
 	
 	@Override
 	public void receive(String msg) {
-		System.out.println("[USER-" + this.channel + "]: " + msg);
+		UI.receive(msg);
 	}
 }
