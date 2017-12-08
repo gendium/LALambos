@@ -1,4 +1,3 @@
-
-public abstract class User implements Comm{
+public abstract class User implements Comm {
 
 }
