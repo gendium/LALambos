@@ -1,7 +1,11 @@
-
+import java.util.*;
+import java.String;
 public interface Menu {
 	Menu rootMenu;
-	List<String> menuOptions;
+	Map<String, Runnable> menuOptions;
 	
+	void displayMenu();
+	void addOption(String, Runnable);
+	void removeOption(String);
 	void quit();
 }
